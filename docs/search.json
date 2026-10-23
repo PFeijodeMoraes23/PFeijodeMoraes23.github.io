@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Draft, October 2026 · Code\nBrazilian depositors leave most of their balances in accounts that pay well below the policy rate, even though better-paying deposits are one transfer away and the Pix instant-payment system made that transfer free. I ask which friction keeps them in place: inattention, unawareness of alternatives, the cost of moving, or an informed preference to stay.\nI extend the dynamic deposit model of Egan, Hortaçsu, Kaplan, Sunderam, and Yao (2025) to a market where brick-and-mortar banks compete locally and digital banks nationally, with random-coefficients (BLP) demand. Estimation proceeds in two steps on a municipality-level panel of bank balances built from Banco Central do Brasil supervisory data (2016–2024): depositor sleepiness from the persistence of deposits, with a control function for endogenous spreads, and demand from a BLP contraction.\nPreliminary findings\n\nOver a full year, 94.3 percent of balances are never re-optimized (98.6 percent in a given quarter), and inertia is deeper in poorer markets.\nActive depositors’ mean own-price elasticity is −0.46, but because most balances are asleep, the deposit base responds to a spread change on impact with an elasticity of only −0.01. This gap is the market power that inertia gives incumbent banks.\nThe launch of Pix is associated with a reduction in the sleepy share of 0.6 percentage points, not distinguishable from zero (95 percent interval [−3.9, 0.2]). The interval is too wide to rule out a large rise in the share of depositors who shop.\nA market’s 2019 mobile access predicts its Pix use, which gives a first step toward separating attention from the cost of moving money."
+  },
+  {
+    "objectID": "research.html#work-in-progress",
+    "href": "research.html#work-in-progress",
+    "title": "Research",
+    "section": "",
+    "text": "Draft, October 2026 · Code\nBrazilian depositors leave most of their balances in accounts that pay well below the policy rate, even though better-paying deposits are one transfer away and the Pix instant-payment system made that transfer free. I ask which friction keeps them in place: inattention, unawareness of alternatives, the cost of moving, or an informed preference to stay.\nI extend the dynamic deposit model of Egan, Hortaçsu, Kaplan, Sunderam, and Yao (2025) to a market where brick-and-mortar banks compete locally and digital banks nationally, with random-coefficients (BLP) demand. Estimation proceeds in two steps on a municipality-level panel of bank balances built from Banco Central do Brasil supervisory data (2016–2024): depositor sleepiness from the persistence of deposits, with a control function for endogenous spreads, and demand from a BLP contraction.\nPreliminary findings\n\nOver a full year, 94.3 percent of balances are never re-optimized (98.6 percent in a given quarter), and inertia is deeper in poorer markets.\nActive depositors’ mean own-price elasticity is −0.46, but because most balances are asleep, the deposit base responds to a spread change on impact with an elasticity of only −0.01. This gap is the market power that inertia gives incumbent banks.\nThe launch of Pix is associated with a reduction in the sleepy share of 0.6 percentage points, not distinguishable from zero (95 percent interval [−3.9, 0.2]). The interval is too wide to rule out a large rise in the share of depositors who shop.\nA market’s 2019 mobile access predicts its Pix use, which gives a first step toward separating attention from the cost of moving money."
+  },
+  {
+    "objectID": "research.html#earlier-work",
+    "href": "research.html#earlier-work",
+    "title": "Research",
+    "section": "Earlier work",
+    "text": "Earlier work\n\nAsymmetric Information and Split-Award Auctions\nM.A. thesis, FGV EPGE, 2021 · Link"
+  },
+  {
+    "objectID": "research.html#research-assistance",
+    "href": "research.html#research-assistance",
+    "title": "Research",
+    "section": "Research assistance",
+    "text": "Research assistance\nDirk Bergemann, Yale University (2023–2024). Information sharing between consumers and producers through a data intermediary, comparing for-profit and consumer-fiduciary intermediaries; an information-design model of screening with two quality levels.\nHumberto Moreira and Marcelo Sant’Anna, FGV EPGE (2021–2022). Demand for automobile insurance in Brazil: a duopoly model with consumers heterogeneous in risk and insurer preference, using SUSEP regulatory data (2010–2020), and a report on market power, screening, and mergers."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download PDF\n\n\nYour browser cannot display the PDF. Download it here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pedro Feijó de Moraes",
+    "section": "",
+    "text": "I am a Ph.D. candidate in Economics at Yale University, working in industrial organization and financial economics. My research studies competition in retail banking: why depositors leave their money in low-yield accounts, and how much market power that inertia gives banks. I combine dynamic structural models of demand with large administrative datasets from the Banco Central do Brasil.\nDuring my undergraduate studies, I spent a year as a macroeconomics research intern at Bahia Asset Management, where I ran GDP and CPI nowcasting models and maintained the cross-country database used by the research team and the trading desk. I hold an M.A. in Economics from FGV EPGE and placed first nationally in Brazil’s 2019 ANPEC graduate entrance exam in economics.\nYou can reach me at pedro.feijodemoraes@yale.edu."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Pedro Feijó de Moraes",
+    "section": "Education",
+    "text": "Education\n\n\n\nPh.D., Economics, Yale University\nexpected 2028\n\n\nM.Phil., M.A., Economics, Yale University\n2025\n\n\nM.A., Economics, FGV EPGE\n2021\n\n\nB.A., Economics, FGV EPGE\n2018"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Pedro Feijó de Moraes",
+    "section": "Skills",
+    "text": "Skills\nProgramming: Python, Julia, R, MATLAB; Git, Bash, SLURM (HPC), LaTeX. Methods: structural demand estimation (BLP), dynamic models, GMM and control-function identification, panel econometrics. Languages: Portuguese (native), English (fluent), Spanish and French (advanced)."
+  }
+]

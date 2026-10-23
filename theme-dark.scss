@@ -1,0 +1,20 @@
+/*-- scss:defaults --*/
+// ============================================================
+//  theme-dark.scss  –  Dark color scheme (toggle in the navbar)
+//  Same navy family as the light theme, lightened for contrast
+//  on a dark background.
+// ============================================================
+$primary:        #7fa6d6;   // links, buttons
+$body-bg:        #141a22;
+$body-color:     #d9dee5;
+$link-color:     $primary;
+$navbar-bg:      #16263b;
+$navbar-fg:      #e8eef5;
+$footer-bg:      #16263b;
+$footer-fg:      #9aa7b8;
+$border-color:   #2a3747;
+
+/*-- scss:rules --*/
+.cv-embed { border-color: #2a3747; }
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover { color: #ffffff; }

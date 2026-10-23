@@ -1,0 +1,49 @@
+# ============================================================
+#  _quarto.yml  –  Personal website (GitHub Pages user site)
+#
+#  Repository : PFeijodeMoraes23.github.io  (this folder = repo root)
+#  Build      : quarto render        -> writes the site to docs/
+#  Deploy     : GitHub > Settings > Pages > Branch: main, folder: /docs
+#  CV PDF     : files/Feijo_de_Moraes_CV.pdf (copied by ../build_site.py)
+#  Headshot   : files/headshot.jpg (add manually)
+# ============================================================
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Pedro Feijó de Moraes"
+  site-url: "https://pfeijodemoraes23.github.io"
+  description: "Ph.D. candidate in Economics at Yale University. Industrial organization and financial economics."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: "mailto:pedro.feijodemoraes@yale.edu"
+        aria-label: Email
+      - icon: github
+        href: "https://github.com/PFeijodeMoraes23"
+        aria-label: GitHub
+      - icon: linkedin
+        href: "https://bit.ly/3qxJaco"
+        aria-label: LinkedIn
+  page-footer:
+    center: "© 2026 Pedro Feijó de Moraes"
+
+format:
+  html:
+    # Light/dark toggle (sun/moon icon in the navbar); the first entry is
+    # the default. Colors live in theme-light.scss / theme-dark.scss.
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [cosmo, theme-dark.scss]
+    css: styles.css
+    include-after-body: theme-toggle.html   # moon/sun button, top left of the navbar
+    toc: false
+    smooth-scroll: true

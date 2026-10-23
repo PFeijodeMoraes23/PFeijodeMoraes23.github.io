@@ -1,0 +1,37 @@
+<!-- ============================================================
+  theme-toggle.html  –  Moon/sun button for light/dark mode
+  Included after the body by _quarto.yml. Quarto still handles the
+  switch itself (and remembers the choice); this only replaces its
+  navbar icon with a round button at the top left showing 🌙 in
+  light mode and ☀️ in dark mode. The default icon is hidden in
+  styles.css.
+  ============================================================ -->
+<script>
+(function () {
+  function isDark() { return document.body.classList.contains("quarto-dark"); }
+  function paint(btn) {
+    btn.textContent = isDark() ? "☀️" : "🌙";
+    btn.setAttribute("aria-label", isDark() ? "Switch to light mode" : "Switch to dark mode");
+    btn.title = btn.getAttribute("aria-label");
+  }
+  function init() {
+    var quartoToggle = document.querySelector("a.quarto-color-scheme-toggle");
+    var navbar = document.querySelector("#quarto-header nav .navbar-container")
+              || document.querySelector("nav.navbar .container-fluid");
+    if (!quartoToggle || !navbar) { return; }
+    var btn = document.createElement("button");
+    btn.id = "pfm-theme-toggle";
+    btn.type = "button";
+    btn.className = "pfm-theme-toggle";
+    paint(btn);
+    btn.addEventListener("click", function () {
+      quartoToggle.click();            // Quarto swaps the stylesheets
+      setTimeout(function () { paint(btn); }, 50);
+    });
+    navbar.insertBefore(btn, navbar.firstChild);
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else { init(); }
+})();
+</script>

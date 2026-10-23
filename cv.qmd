@@ -1,0 +1,10 @@
+---
+title: "CV"
+---
+
+[Download PDF](files/Feijo_de_Moraes_CV.pdf){.btn .btn-outline-primary .btn-sm}
+
+<object data="files/Feijo_de_Moraes_CV.pdf" type="application/pdf" class="cv-embed">
+  <p>Your browser cannot display the PDF.
+  <a href="files/Feijo_de_Moraes_CV.pdf">Download it here.</a></p>
+</object>

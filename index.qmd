@@ -1,0 +1,52 @@
+---
+title: "Pedro Feijó de Moraes"
+subtitle: "Ph.D. Candidate in Economics, Yale University"
+about:
+  template: trestles
+  image: files/headshot.jpg
+  image-shape: rounded
+  image-width: 13em
+  links:
+    - icon: file-earmark-pdf
+      text: CV
+      href: files/Feijo_de_Moraes_CV.pdf
+    - icon: envelope
+      text: Email
+      href: "mailto:pedro.feijodemoraes@yale.edu"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/PFeijodeMoraes23"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://bit.ly/3qxJaco"
+---
+
+I am a Ph.D. candidate in Economics at Yale University, working in industrial
+organization and financial economics. My research studies competition in retail
+banking: why depositors leave their money in low-yield accounts, and how much
+market power that inertia gives banks. I combine dynamic structural models of
+demand with large administrative datasets from the Banco Central do Brasil.
+
+During my undergraduate studies, I spent a year as a macroeconomics research
+intern at Bahia Asset Management, where I ran GDP and CPI nowcasting models and
+maintained the cross-country database used by the research team and the trading
+desk. I hold an M.A. in Economics from FGV EPGE and placed first nationally in
+Brazil's 2019 ANPEC graduate entrance exam in economics.
+
+You can reach me at [pedro.feijodemoraes@yale.edu](mailto:pedro.feijodemoraes@yale.edu).
+
+## Education
+
+| | |
+|:--|--:|
+| **Ph.D., Economics**, Yale University | expected 2028 |
+| **M.Phil., M.A., Economics**, Yale University | 2025 |
+| **M.A., Economics**, FGV EPGE | 2021 |
+| **B.A., Economics**, FGV EPGE | 2018 |
+
+## Skills
+
+**Programming:** Python, Julia, R, MATLAB; Git, Bash, SLURM (HPC), LaTeX.<br>
+**Methods:** structural demand estimation (BLP), dynamic models, GMM and
+control-function identification, panel econometrics.<br>
+**Languages:** Portuguese (native), English (fluent), Spanish and French (advanced).

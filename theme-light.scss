@@ -1,0 +1,17 @@
+/*-- scss:defaults --*/
+// ============================================================
+//  theme-light.scss  –  Light color scheme (default)
+//  Accent: navy (#1f3a5f). Change $primary to recolor the site.
+// ============================================================
+$primary:        #1f3a5f;   // links, buttons, navbar
+$body-bg:        #ffffff;
+$body-color:     #1f2933;
+$link-color:     $primary;
+$navbar-bg:      $primary;
+$navbar-fg:      #ffffff;
+$footer-bg:      #f4f6f8;
+$footer-fg:      #5f6b7a;
+
+/*-- scss:rules --*/
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover { color: #c9d6e6; }

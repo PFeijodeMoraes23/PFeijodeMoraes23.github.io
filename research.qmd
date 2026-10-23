@@ -1,0 +1,57 @@
+---
+title: "Research"
+---
+
+## Work in progress
+
+### Why Don't Deposits Move? Depositor Inertia and Deposit Competition in Brazilian Retail Banking
+
+*Draft, October 2026* · [Code](https://github.com/PFeijodeMoraes23/Deposit_Competition_Code)
+
+Brazilian depositors leave most of their balances in accounts that pay well below
+the policy rate, even though better-paying deposits are one transfer away and the
+Pix instant-payment system made that transfer free. I ask which friction keeps them
+in place: inattention, unawareness of alternatives, the cost of moving, or an
+informed preference to stay.
+
+I extend the dynamic deposit model of Egan, Hortaçsu, Kaplan, Sunderam, and Yao
+(2025) to a market where brick-and-mortar banks compete locally and digital banks
+nationally, with random-coefficients (BLP) demand. Estimation proceeds in two steps
+on a municipality-level panel of bank balances built from Banco Central do Brasil
+supervisory data (2016–2024): depositor sleepiness from the persistence of deposits,
+with a control function for endogenous spreads, and demand from a BLP contraction.
+
+**Preliminary findings**
+
+- Over a full year, {{< var paper.sleep_yoy >}} percent of balances are never
+  re-optimized ({{< var paper.sleep_qoq >}} percent in a given quarter), and inertia
+  is deeper in poorer markets.
+- Active depositors' mean own-price elasticity is {{< var paper.elast_active >}}, but
+  because most balances are asleep, the deposit base responds to a spread change on
+  impact with an elasticity of only {{< var paper.elast_impact >}}. This gap is the
+  market power that inertia gives incumbent banks.
+- The launch of Pix is associated with a reduction in the sleepy share of
+  {{< var paper.pix_shift >}} percentage points, not distinguishable from zero
+  (95 percent interval [{{< var paper.pix_ci_lo >}}, {{< var paper.pix_ci_hi >}}]).
+  The interval is too wide to rule out a large rise in the share of depositors
+  who shop.
+- A market's 2019 mobile access predicts its Pix use, which gives a first step
+  toward separating attention from the cost of moving money.
+
+## Earlier work
+
+### Asymmetric Information and Split-Award Auctions
+
+*M.A. thesis, FGV EPGE, 2021* · [Link](https://hdl.handle.net/10438/30694)
+
+## Research assistance
+
+**Dirk Bergemann, Yale University** (2023–2024). Information sharing between
+consumers and producers through a data intermediary, comparing for-profit and
+consumer-fiduciary intermediaries; an information-design model of screening with
+two quality levels.
+
+**Humberto Moreira and Marcelo Sant'Anna, FGV EPGE** (2021–2022). Demand for
+automobile insurance in Brazil: a duopoly model with consumers heterogeneous in
+risk and insurer preference, using SUSEP regulatory data (2010–2020), and a report
+on market power, screening, and mergers.
