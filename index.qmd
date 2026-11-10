@@ -46,7 +46,7 @@ You can reach me at [pedro.feijodemoraes@yale.edu](mailto:pedro.feijodemoraes@ya
 
 ## Skills
 
-**Programming:** Python, Julia, R, MATLAB; Git, Bash, SLURM (HPC), LaTeX.<br>
+**Programming:** Python, R, MATLAB; Git, LaTeX.<br>
 **Methods:** structural demand estimation (BLP), dynamic models, GMM and
 control-function identification, panel econometrics.<br>
 **Languages:** Portuguese (native), English (fluent), Spanish and French (advanced).

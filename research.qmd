@@ -23,17 +23,13 @@ with a control function for endogenous spreads, and demand from a BLP contractio
 
 **Preliminary findings**
 
-- Over a full year, {{< var paper.sleep_yoy >}} percent of balances are never
-  re-optimized ({{< var paper.sleep_qoq >}} percent in a given quarter), and inertia
-  is deeper in poorer markets.
-- Active depositors' mean own-price elasticity is {{< var paper.elast_active >}}, but
-  because most balances are asleep, the deposit base responds to a spread change on
-  impact with an elasticity of only {{< var paper.elast_impact >}}. This gap is the
-  market power that inertia gives incumbent banks.
-- The launch of Pix is associated with a reduction in the sleepy share of
-  {{< var paper.pix_shift >}} percentage points, not distinguishable from zero
-  (95 percent interval [{{< var paper.pix_ci_lo >}}, {{< var paper.pix_ci_hi >}}]).
-  The interval is too wide to rule out a large rise in the share of depositors
+- Over a full year, more than 90 percent of balances are never re-optimized, and
+  inertia is deeper in poorer markets.
+- Active depositors are price-sensitive, but because most balances are asleep, the
+  deposit base barely responds to a spread change on impact. This gap is the market
+  power that inertia gives incumbent banks.
+- The launch of Pix is not associated with a detectable change in inertia; the
+  estimate is too imprecise to rule out a large rise in the share of depositors
   who shop.
 - A market's 2019 mobile access predicts its Pix use, which gives a first step
   toward separating attention from the cost of moving money.
